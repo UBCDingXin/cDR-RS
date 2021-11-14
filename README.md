@@ -118,7 +118,7 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Sample Usage
 
-Run `./scripts/run_train.sh` in the following folders. Remember to set correct root path, data path, and checkpoint path. <br />
+Run `./scripts/run_train.sh` in the following folders. Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment. <br />
 
 ## Class-conditional GANs
 
