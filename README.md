@@ -76,7 +76,7 @@ If you use this code, please cite
 
 ImageNet-100                  |  UTKFace
 :-------------------------:|:-------------------------:
-![](images/ImageNet-100_and_UTKFace_64x64_efficiency_and_effectiveness_analysis_kappa-6.png)  |  ![](images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png)
+![](images/ImageNet-100_BigGANdeep_efficiency_and_effectiveness_analysis_3bars.png)  |  ![](images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png)
 
 -------------------------------
 
