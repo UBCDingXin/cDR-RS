@@ -2,7 +2,7 @@
 
 --------------------------------------------------------
 
-This repository provides the source codes for the experiments in our papers for CcGANs. <br />
+This repository provides the source codes for the experiments in our paper. <br />
 If you use this code, please cite
 ```text
 @misc{ding2021efficient,
@@ -63,8 +63,20 @@ If you use this code, please cite
 
 --------------------------------------------------------
 
-# Effectiveness and Efficiency Comparison
+# The overall workflow of cDR-RS
 
+<p align="center">
+  <img src="images/workflow_cDR-RS.png">
+  The overall workflow of cDR-RS.
+</p>
+
+--------------------------------------------------------
+
+# Effectiveness and Efficiency Comparison on ImageNet-100 and UTKFace
+
+ImageNet-100                  |  UTKFace
+:-------------------------:|:-------------------------:
+![](images/ImageNet-100_and_UTKFace_64x64_efficiency_and_effectiveness_analysis_kappa-6.png)  |  ![](images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png)
 
 -------------------------------
 
