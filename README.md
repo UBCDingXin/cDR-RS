@@ -74,9 +74,20 @@ If you use this code, please cite
 
 # Effectiveness and Efficiency Comparison on ImageNet-100 and UTKFace
 
-ImageNet-100                  |  UTKFace
+<!-- ImageNet-100                  |  UTKFace
 :-------------------------:|:-------------------------:
-![](images/ImageNet-100_BigGANdeep_efficiency_and_effectiveness_analysis_3bars.png)  |  ![](images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png)
+![](images/ImageNet-100_BigGANdeep_efficiency_and_effectiveness_analysis_3bars.png)  |  ![](images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png) -->
+
+
+<p align="center">
+  <img src="images/ImageNet-100_BigGANdeep_efficiency_and_effectiveness_analysis_3bars.png">
+  Efffectiveness and Efficiency Comparison on ImageNet-100
+</p>
+
+<p align="center">
+  <img src="images/UTKFace_64x64_SVDL_efficiency_and_effectiveness_analysis_3bars_LS_kappa-6.png">
+  Efffectiveness and Efficiency Comparison on UTKFace
+</p>
 
 -------------------------------
 
