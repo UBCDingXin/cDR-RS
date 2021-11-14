@@ -107,32 +107,48 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Sample Usage
 
-run `./scripts/run_train.sh` in the following folders. Remember to set correct root path, data path, and checkpoint path. <br />
+Run `./scripts/run_train.sh` in the following folders. Remember to set correct root path, data path, and checkpoint path. <br />
 
 ## Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
-`./RC-49/RC-49_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
+Download 
+[eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Tfm2AX) <br />
+
+<!-- `./RC-49/RC-49_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./RC-49/RC-49_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
-`./RC-49/RC-49_64x64/cGAN-concat`: Train cGAN (concat). <br />
+`./RC-49/RC-49_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
 
 ### CIFAR-100 (`./CIFAR-100`)
-`./UTKFace/UTKFace_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
+Download 
+[eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=PiOPCh) <br />
+
+<!-- `./UTKFace/UTKFace_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./UTKFace/UTKFace_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
-`./UTKFace/UTKFace_64x64/cGAN-concat`: Train cGAN (concat). <br />
+`./UTKFace/UTKFace_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
 
 ### ImageNet-100 (`./ImageNet-100`)
-`./Cell-200/Cell-200_64x64/CcGAN`: Train AE for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
-`./Cell-200/Cell-200_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
+Download 
+[eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=qcrfZ3) <br />
+
+<!-- `./Cell-200/Cell-200_64x64/CcGAN`: Train AE for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
+`./Cell-200/Cell-200_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br /> -->
 
 
 ## CcGANs
 
 ### UTKFace (`./UTKFace`)
-`./RC-49/RC-49_128x128\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br />
+Download 
+[eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=c4McJ1) <br />
+
+<!-- `./RC-49/RC-49_128x128\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br /> -->
 
 ### RC-49 (`./RC-49`)
-`./RC-49/RC-49_256x256\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br />
+Download 
+[eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=ZHdv2k) <br />
+
+
+<!-- `./RC-49/RC-49_256x256\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br /> -->
 
 --------------------------------------------------------
 
