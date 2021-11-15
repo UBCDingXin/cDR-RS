@@ -122,29 +122,24 @@ Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and 
 ## Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Tfm2AX). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Zx2mUy). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
 1. Train three GANs: ACGAN, SNGAN, and BigGAN. <br />
 ACGAN: <br />
 2. Implement each method.  <br />
 
 
-<!-- `./RC-49/RC-49_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
-`./RC-49/RC-49_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
-`./RC-49/RC-49_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
+
 
 ### CIFAR-100 (`./CIFAR-100`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=PiOPCh). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=W5pdEL). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
-<!-- `./UTKFace/UTKFace_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
-`./UTKFace/UTKFace_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
-`./UTKFace/UTKFace_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
+
 
 ### ImageNet-100 (`./ImageNet-100`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=qcrfZ3). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./ImageNet-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=4zxSt3). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./ImageNet-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
-<!-- `./Cell-200/Cell-200_64x64/CcGAN`: Train AE for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
-`./Cell-200/Cell-200_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br /> -->
+
 
 
 ## CcGANs
