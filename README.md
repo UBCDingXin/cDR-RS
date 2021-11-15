@@ -117,7 +117,7 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Sample Usage
 
-Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and `METHOD_NAME` specify the dataset and the sampling method (e.g., cDR-RS), respectively. ** Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment. ** <br />
+Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and `METHOD_NAME` specify the dataset and the sampling method (e.g., cDR-RS), respectively. **Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment.** <br />
 
 ## Class-conditional GANs
 
