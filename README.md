@@ -94,7 +94,7 @@ If you use this code, please cite
 # Software Requirements
 | Item | Version |
 |---|---|
-|Python|3.9.5|
+| Python|3.9.5|
 | argparse | 1.1 |
 | CUDA  | 11.4 |
 | cuDNN| 8.2|
