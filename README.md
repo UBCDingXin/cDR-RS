@@ -124,6 +124,11 @@ Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and 
 ### CIFAR-10 (`./CIFAR-10`)
 Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Tfm2AX). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
+1. Train three GANs: ACGAN, SNGAN, and BigGAN. <br />
+ACGAN: <br />
+2. Implement each method.  <br />
+
+
 <!-- `./RC-49/RC-49_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./RC-49/RC-49_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
 `./RC-49/RC-49_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
@@ -144,12 +149,12 @@ Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=
 
 ## CcGANs
 ### UTKFace (`./UTKFace`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=c4McJ1). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=jHYkIP). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
 
 
 ### RC-49 (`./RC-49`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=ZHdv2k). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./RC-49`. This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=kyJlJI). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./RC-49`. This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
 
 
