@@ -129,9 +129,9 @@ ACGAN: Run `./CIFAR-10/GANs/ACGAN/scripts/run_train.sh` <br />
 SNGAN: Run `./CIFAR-10/GANs/SNGAN/scripts/run_train.sh` <br />
 BigGAN: Run `./CIFAR-10/GANs/BigGAN/scripts/launch_cifar10_ema.sh` <br />
 2. **Implement each sampling method.**  <br />
-**cDR-RS and DRE-F-SP+RS**: Run `./cDR-RS/scripts/run_exp_acgan.sh` for ACGAN. Run `./cDR-RS/scripts/run_exp_sngan.sh` for SNGAN. Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
-**DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_sngan.sh` for SNGAN. Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
-**GOLD**: Run `./cDR-RS/scripts/run_acgan.sh` for ACGAN. <br />
+**cDR-RS and DRE-F-SP+RS**: Run `./scripts/run_exp_acgan.sh` for ACGAN. Run `./scripts/run_exp_sngan.sh` for SNGAN. Run `./scripts/run_exp_biggan.sh` for BigGAN. <br />
+**DRS, DDLS, and Collab**: Run `./scripts/run_sngan.sh` for SNGAN. Run `./scripts/run_biggan.sh` for BigGAN. <br />
+**GOLD**: Run `./scripts/run_acgan.sh` for ACGAN. <br />
 
 
 ### CIFAR-100 (`./CIFAR-100`)
@@ -140,8 +140,8 @@ Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZp-cl2SSkwVVz
 1. **Train BigGAN.** Its checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of BigGAN is actually not necessary. <br />
 BigGAN: Run `./CIFAR-100/GANs/BigGAN/scripts/launch_cifar100_ema.sh` <br />
 2. **Implement each sampling method.**  <br />
-**cDR-RS and DRE-F-SP+RS**: Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
-**DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
+**cDR-RS and DRE-F-SP+RS**: Run `./scripts/run_exp_biggan.sh` for BigGAN. <br />
+**DRS, DDLS, and Collab**: Run `./scripts/run_biggan.sh` for BigGAN. <br />
 
 
 ### ImageNet-100 (`./ImageNet-100`)
@@ -150,8 +150,8 @@ Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZp9jGr2qkLwQ-
 1. **Train BigGAN-deep.** Its checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of BigGAN is actually not necessary. <br />
 BigGAN: Run `./ImageNet-100/GANs/BigGAN/scripts/launch_imagenet-100_deep.sh` <br />
 2. **Implement each sampling method.**  <br />
-**cDR-RS and DRE-F-SP+RS**: Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
-**DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
+**cDR-RS and DRE-F-SP+RS**: Run `./scripts/run_exp_biggan.sh` for BigGAN. <br />
+**DRS, DDLS, and Collab**: Run `./scripts/run_biggan.sh` for BigGAN. <br />
 
 
 
