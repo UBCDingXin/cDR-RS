@@ -28,6 +28,7 @@ If you use this code, please cite
 │   ├── DDLS
 │   ├── GOLD
 │   └── GANs
+│   └── eval_and_gan_ckpts
 │
 ├── CIFAR-100
 │   ├── cDR-RS
@@ -36,6 +37,7 @@ If you use this code, please cite
 │   ├── Collab
 │   ├── DDLS
 │   └── GANs
+│   └── eval_and_gan_ckpts
 │
 ├── ImageNet-100
 │   ├── cDR-RS
@@ -44,6 +46,7 @@ If you use this code, please cite
 │   ├── Collab
 │   ├── DDLS
 │   └── GANs
+│   └── eval_and_gan_ckpts
 │
 ├── UTKFace
 │   ├── cDR-RS
