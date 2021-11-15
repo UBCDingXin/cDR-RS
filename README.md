@@ -122,14 +122,16 @@ Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and 
 ## Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Zx2mUy). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpeWtw5xejKpnXcsg?e=f7zSVO). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
-1. Train three GANs: ACGAN, SNGAN, and BigGAN. <br />
-ACGAN: <br />
-2. Implement each method.  <br />
-
-
-
+1. Train three GANs: ACGAN, SNGAN, and BigGAN. Their checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of these GANs are actually not necessary. <br />
+ACGAN: Run `./CIFAR-10/GANs/ACGAN/scripts/run_train.sh` <br />
+SNGAN: Run `./CIFAR-10/GANs/SNGAN/scripts/run_train.sh` <br />
+BigGAN: Run `./CIFAR-10/GANs/BigGAN/scripts/launch_cifar10_ema.sh` <br />
+2. Implement each sampling method.  <br />
+cDR-RS and DRE-F-SP+RS: Run `./cDR-RS/scripts/run_exp_acgan.sh` for ACGAN. Run `./cDR-RS/scripts/run_exp_sngan.sh` for SNGAN. Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
+DRS, DDLS, Collab: Run `./cDR-RS/scripts/run_sngan.sh` for SNGAN. Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
+GOLD: Run `./cDR-RS/scripts/run_acgan.sh` for ACGAN. <br />
 
 ### CIFAR-100 (`./CIFAR-100`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=W5pdEL). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
