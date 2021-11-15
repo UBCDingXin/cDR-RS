@@ -117,14 +117,14 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Sample Usage
 
-Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and `METHOD_NAME` specify the dataset and the sampling method (e.g., cDR-RS), respectively. **Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment.** <br />
+**Remember to set correct root path, data path, and checkpoint path. Please also remember to download necessary checkpoints for each experiment.** <br />
 
 ## Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpeWtw5xejKpnXcsg?e=f7zSVO). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
-1. **Train three GANs**: ACGAN, SNGAN, and BigGAN. Their checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of these GANs are actually not necessary. <br />
+1. **Train three GANs**: ACGAN, SNGAN, and BigGAN. Their checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of these GANs is actually not necessary. <br />
 ACGAN: Run `./CIFAR-10/GANs/ACGAN/scripts/run_train.sh` <br />
 SNGAN: Run `./CIFAR-10/GANs/SNGAN/scripts/run_train.sh` <br />
 BigGAN: Run `./CIFAR-10/GANs/BigGAN/scripts/launch_cifar10_ema.sh` <br />
@@ -133,13 +133,25 @@ BigGAN: Run `./CIFAR-10/GANs/BigGAN/scripts/launch_cifar10_ema.sh` <br />
 **DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_sngan.sh` for SNGAN. Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
 **GOLD**: Run `./cDR-RS/scripts/run_acgan.sh` for ACGAN. <br />
 
-### CIFAR-100 (`./CIFAR-100`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=W5pdEL). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
+### CIFAR-100 (`./CIFAR-100`)
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZp-cl2SSkwVVz-VVA?e=z9bNnw). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+
+1. **Train BigGAN.** Its checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of BigGAN is actually not necessary. <br />
+BigGAN: Run `./CIFAR-100/GANs/BigGAN/scripts/launch_cifar100_ema.sh` <br />
+2. **Implement each sampling method.**  <br />
+**cDR-RS and DRE-F-SP+RS**: Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
+**DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
 
 
 ### ImageNet-100 (`./ImageNet-100`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=4zxSt3). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./ImageNet-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZp9jGr2qkLwQ-TYbw?e=IS5zL4). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./ImageNet-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
+
+1. **Train BigGAN-deep.** Its checkpoints used in our experiment are also provided in `eval_and_gan_ckpts`. Thus, to reproduce our results, the training of BigGAN is actually not necessary. <br />
+BigGAN: Run `./ImageNet-100/GANs/BigGAN/scripts/launch_imagenet-100_deep.sh` <br />
+2. **Implement each sampling method.**  <br />
+**cDR-RS and DRE-F-SP+RS**: Run `./cDR-RS/scripts/run_exp_biggan.sh` for BigGAN. <br />
+**DRS, DDLS, and Collab**: Run `./cDR-RS/scripts/run_biggan.sh` for BigGAN. <br />
 
 
 
