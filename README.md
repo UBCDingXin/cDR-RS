@@ -164,12 +164,12 @@ BigGAN: Run `./ImageNet-100/GANs/BigGAN/scripts/launch_imagenet-100_deep.sh` <br
 ### UTKFace (`./UTKFace`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=jHYkIP). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
-
+Run `./scripts/run_train.sh` in each folder. <br />
 
 ### RC-49 (`./RC-49`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=kyJlJI). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./RC-49`. This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
-
+Run `./scripts/run_train.sh` in each folder. <br />
 
 
 --------------------------------------------------------
