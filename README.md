@@ -117,43 +117,42 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Sample Usage
 
-Run `./scripts/run_train.sh` in the following folders. Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment. <br />
+Run `./DATASET_NAME/METHOD_NAME/scripts/run_train.sh`, where `DATASET_NAME` and `METHOD_NAME` specify the dataset and the sampling method (e.g., cDR-RS), respectively. ** Remember to set correct root path, data path, and checkpoint path. Please also remember to download corresponding checkpoints for each experiment. ** <br />
 
 ## Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Tfm2AX). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-10`.  <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpPw7kYJqSe9Ng75w?e=Tfm2AX). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
 <!-- `./RC-49/RC-49_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./RC-49/RC-49_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
 `./RC-49/RC-49_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
 
 ### CIFAR-100 (`./CIFAR-100`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=PiOPCh). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-100`. <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpOIqpOBhWSzL9xNw?e=PiOPCh). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./CIFAR-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
 <!-- `./UTKFace/UTKFace_64x64/CcGAN`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./UTKFace/UTKFace_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br />
 `./UTKFace/UTKFace_64x64/cGAN-concat`: Train cGAN (concat). <br /> -->
 
 ### ImageNet-100 (`./ImageNet-100`)
-Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=qcrfZ3). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./ImageNet-100`. <br />
+Download [eval_models.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpQhdrN9bCvbtaoaA?e=qcrfZ3). Unzip `eval_models.zip` to get `eval_models`, and move `eval_models` to `./ImageNet-100`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
 
 <!-- `./Cell-200/Cell-200_64x64/CcGAN`: Train AE for evaluation. Train cGAN (K classes) and NLI-based CcGAN. <br />
 `./Cell-200/Cell-200_64x64/CcGAN-improved`: Train cGAN (K classes) and ILI-based CcGAN. <br /> -->
 
 
 ## CcGANs
-
 ### UTKFace (`./UTKFace`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=c4McJ1). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=c4McJ1). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
-<!-- `./RC-49/RC-49_128x128\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br /> -->
+
 
 ### RC-49 (`./RC-49`)
-Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=ZHdv2k). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./RC-49`. <br />
+Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpShcQiZq8IzOFGQg?e=ZHdv2k). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./RC-49`. This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
 
-<!-- `./RC-49/RC-49_256x256\CcGAN-improved`: Train AE and ResNet-34 for evaluation. Train cGAN (K classes), cGAN (concat) and CcGAN (SVDL+ILI). <br /> -->
+
 
 --------------------------------------------------------
 
