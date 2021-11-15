@@ -111,10 +111,13 @@ If you use this code, please cite
 --------------------------------------------------------
 
 # Datasets
-Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.com/UBCDingXin/improved_CcGAN) for the download link of RC-49 and the preprocessed UTKFace datasets. Download RC-49 (64x64) and UTKFace (64x64) h5 files and put them in `./datasets/RC-49` and `./datasets/UTKFace`, respectively. <br />
 
 The unprocessed ImageNet-100 dataset (`imagenet.tar.gz`) can be download from [here](https://drive.google.com/drive/folders/0B7IzDz-4yH_HOXdoaDU4dk40RFE?usp=sharing). <br />
 After unzipping `imagenet.tar.gz`, put `image` in `./datasets/ImageNet-100`. Then run `python make_dataset.py` in `./datasets/ImageNet-100`. Finally, we will get the h5 file of the processed ImageNet-100 dataset named `ImageNet_128x128_100Class.h5`. <br /> 
+
+Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.com/UBCDingXin/improved_CcGAN) for the download link of RC-49 and the preprocessed UTKFace datasets. Download RC-49 (64x64) and UTKFace (64x64) h5 files and put them in `./datasets/RC-49` and `./datasets/UTKFace`, respectively. <br />
+
+
 
 
 --------------------------------------------------------
