@@ -123,7 +123,7 @@ The unprocessed ImageNet-100 dataset can be download from [here](https://drive.g
 
 **Remember to set correct root path, data path, and checkpoint path. Please also remember to download necessary checkpoints for each experiment.** <br />
 
-## Class-conditional GANs
+## 1. Sampling From Class-conditional GANs
 
 ### CIFAR-10 (`./CIFAR-10`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpeWtw5xejKpnXcsg?e=f7zSVO). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./CIFAR-10`. This folder includes the checkpoint of Inception-V3 for evaluation.  <br />
@@ -160,7 +160,7 @@ BigGAN: Run `./ImageNet-100/GANs/BigGAN/scripts/launch_imagenet-100_deep.sh` <br
 
 
 
-## CcGANs
+## 2. Sampling From CcGANs
 ### UTKFace (`./UTKFace`)
 Download [eval_and_gan_ckpts.zip](https://1drv.ms/u/s!Arj2pETbYnWQuZpRaaDohsH5T0qFzg?e=jHYkIP). Unzip `eval_and_gan_ckpts.zip` to get `eval_and_gan_ckpts`, and move `eval_and_gan_ckpts` to `./UTKFace`.  This folder includes the checkpoint of AE and ResNet-34 for evaluation. It also includes the checkpoint of CcGAN (SVDL+ILI). <br />
 
