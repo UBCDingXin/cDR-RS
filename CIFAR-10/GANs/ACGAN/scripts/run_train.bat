@@ -1,8 +1,8 @@
 @echo off
 
-set ROOT_PATH="G:/OneDrive/Working_directory/Subsample_cGANs_via_cDRE/CIFAR-10/GANs/ACGAN"
-set DATA_PATH="G:/OneDrive/Working_directory/datasets/CIFAR-10"
-set EVAL_CKPT_PATH="G:/OneDrive/Working_directory/Subsample_cGANs_via_cDRE/CIFAR-10/eval_models/ckpt_PreCNNForEval_InceptionV3_epoch_200_SEED_2021_Transformation_True.pth"
+set ROOT_PATH="./CIFAR-10/GANs/ACGAN"
+set DATA_PATH="./datasets/CIFAR-10"
+set EVAL_CKPT_PATH="./CIFAR-10/eval_and_gan_ckpts/ckpt_PreCNNForEval_InceptionV3_epoch_200_SEED_2021_Transformation_True.pth"
 
 set SEED=2021
 set NITERS=100000
@@ -15,18 +15,6 @@ set VISUAL_FREQ=1000
 set COMP_IS_FREQ=2000
 set NFAKE_PER_CLASS=10000
 set SAMP_ROUND=1
-
-@REM set SEED=2021
-@REM set NITERS=500
-@REM set BATCHSIZE=256
-@REM set LR_G=2e-4
-@REM set LR_D=2e-4
-@REM set nDs=1
-@REM set SAVE_FREQ=100
-@REM set VISUAL_FREQ=100
-@REM set COMP_IS_FREQ=100
-@REM set NFAKE_PER_CLASS=100
-@REM set SAMP_ROUND=1
 
 python main.py ^
     --root_path %ROOT_PATH% --data_path %DATA_PATH% --eval_ckpt_path %EVAL_CKPT_PATH% --seed %SEED% ^

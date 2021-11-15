@@ -1,11 +1,12 @@
 @echo off
 
-set EPOCHS=1200
+ROOT_PATH="./CIFAR-10/GANs/BigGAN"
+set EPOCHS=2000
 set BATCHSIZE=512
 
 python train.py ^
---seed 2020 ^
---shuffle --batch_size %BATCHSIZE% --parallel ^
+--root_path %ROOT_PATH% --seed 2021 ^
+--shuffle --batch_size %BATCHSIZE% --parallel --num_workers 0  --no_pin_memory ^
 --num_G_accumulations 1 --num_D_accumulations 1 --num_epochs %EPOCHS% ^
 --num_D_steps 4 --G_lr 2e-4 --D_lr 2e-4 ^
 --data_root data/ --dataset C10 --augment ^
