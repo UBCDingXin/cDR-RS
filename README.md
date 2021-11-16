@@ -2,14 +2,14 @@
 
 --------------------------------------------------------
 
-This repository provides the source codes for the experiments in our paper. <br />
+This repository provides the source codes for the experiments in our paper at [https://arxiv.org/abs/2103.11166v2](https://arxiv.org/abs/2103.11166v2). <br />
 If you use this code, please cite
 ```text
 @misc{ding2021efficient,
       title={Efficient Density Ratio-Guided Subsampling of Conditional GANs, With Conditioning on a Class or a Continuous Variable}, 
       author={Xin Ding and Yongwei Wang and Z. Jane Wang and William J. Welch},
       year={2021},
-      eprint={2103.11166},
+      eprint={2103.11166v2},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
