@@ -186,6 +186,8 @@ Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.co
 
 # Resources for Implementing cGANs and Sampling Methods
 
+Some codes are borrowed from the following repositories.
+
 To implement ACGAN, we refer to https://github.com/sangwoomo/GOLD.
 
 To implement SNGAN, we refer to https://github.com/christiancosgrove/pytorch-spectral-normalization-gan and https://github.com/pfnet-research/sngan_projection. 
