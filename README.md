@@ -180,3 +180,24 @@ Run `./scripts/run_train.sh` in each folder. <br />
 
 # Computing NIQE of fake images sampled from CcGANs
 Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.com/UBCDingXin/improved_CcGAN).
+
+
+--------------------------------------------------------
+
+# Resources for Implementing cGANs and Sampling Methods
+
+To implement ACGAN, we refer to https://github.com/sangwoomo/GOLD.
+
+To implement SNGAN, we refer to https://github.com/christiancosgrove/pytorch-spectral-normalization-gan and https://github.com/pfnet-research/sngan_projection. 
+
+To implement BigGAN, we refer to https://github.com/ajbrock/BigGAN-PyTorch. 
+
+To implement CcGANs, we refer to https://github.com/UBCDingXin/improved_CcGAN.
+
+To implement GOLD, we refer to https://github.com/sangwoomo/GOLD.
+
+To implement Collab, we refer to https://github.com/YuejiangLIU/pytorch-collaborative-gan-sampling.
+
+To implement DRS and DRE-F-SP+RS, we refer to https://github.com/UBCDingXin/DDRE_Sampling_GANs. 
+
+To implement DDLS, we refer to https://github.com/JHpark1677/CGAN-DDLS and https://github.com/Daniil-Selikhanovych/ebm-wgan/blob/master/notebook/EBM_GAN.ipynb. 
