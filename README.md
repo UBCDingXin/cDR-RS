@@ -2,14 +2,14 @@
 
 --------------------------------------------------------
 
-This repository provides the source codes for the experiments in our paper at [https://arxiv.org/abs/2103.11166v2](https://arxiv.org/abs/2103.11166v2). <br />
+This repository provides the source codes for the experiments in our paper at [https://arxiv.org/abs/2103.11166v5](https://arxiv.org/abs/2103.11166v5). <br />
 If you use this code, please cite
 ```text
 @misc{ding2021efficient,
-      title={Efficient Density Ratio-Guided Subsampling of Conditional GANs, With Conditioning on a Class or a Continuous Variable}, 
+      title={Efficient Subsampling of Realistic Images From GANs Conditional on a Class or a Continuous Variable},
       author={Xin Ding and Yongwei Wang and Z. Jane Wang and William J. Welch},
-      year={2021},
-      eprint={2103.11166v2},
+      year={2022},
+      eprint={2103.11166v5},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
@@ -116,7 +116,7 @@ If you use this code, please cite
 # Datasets
 
 The unprocessed ImageNet-100 dataset (`imagenet.tar.gz`) can be download from [here](https://drive.google.com/drive/folders/0B7IzDz-4yH_HOXdoaDU4dk40RFE?usp=sharing). <br />
-After unzipping `imagenet.tar.gz`, put `image` in `./datasets/ImageNet-100`. Then run `python make_dataset.py` in `./datasets/ImageNet-100`. Finally, we will get the h5 file of the processed ImageNet-100 dataset named `ImageNet_128x128_100Class.h5`. <br /> 
+After unzipping `imagenet.tar.gz`, put `image` in `./datasets/ImageNet-100`. Then run `python make_dataset.py` in `./datasets/ImageNet-100`. Finally, we will get the h5 file of the processed ImageNet-100 dataset named `ImageNet_128x128_100Class.h5`. <br />
 
 Please refer to [https://github.com/UBCDingXin/improved_CcGAN](https://github.com/UBCDingXin/improved_CcGAN) for the download link of RC-49 and the preprocessed UTKFace datasets. Download RC-49 (64x64) and UTKFace (64x64) h5 files and put them in `./datasets/RC-49` and `./datasets/UTKFace`, respectively. <br />
 
@@ -190,9 +190,9 @@ Some codes are borrowed from the following repositories.
 
 To implement ACGAN, we refer to https://github.com/sangwoomo/GOLD.
 
-To implement SNGAN, we refer to https://github.com/christiancosgrove/pytorch-spectral-normalization-gan and https://github.com/pfnet-research/sngan_projection. 
+To implement SNGAN, we refer to https://github.com/christiancosgrove/pytorch-spectral-normalization-gan and https://github.com/pfnet-research/sngan_projection.
 
-To implement BigGAN, we refer to https://github.com/ajbrock/BigGAN-PyTorch. 
+To implement BigGAN, we refer to https://github.com/ajbrock/BigGAN-PyTorch.
 
 To implement CcGANs, we refer to https://github.com/UBCDingXin/improved_CcGAN.
 
@@ -200,6 +200,6 @@ To implement GOLD, we refer to https://github.com/sangwoomo/GOLD.
 
 To implement Collab, we refer to https://github.com/YuejiangLIU/pytorch-collaborative-gan-sampling.
 
-To implement DRS and DRE-F-SP+RS, we refer to https://github.com/UBCDingXin/DDRE_Sampling_GANs. 
+To implement DRS and DRE-F-SP+RS, we refer to https://github.com/UBCDingXin/DDRE_Sampling_GANs.
 
-To implement DDLS, we refer to https://github.com/JHpark1677/CGAN-DDLS and https://github.com/Daniil-Selikhanovych/ebm-wgan/blob/master/notebook/EBM_GAN.ipynb. 
+To implement DDLS, we refer to https://github.com/JHpark1677/CGAN-DDLS and https://github.com/Daniil-Selikhanovych/ebm-wgan/blob/master/notebook/EBM_GAN.ipynb.
