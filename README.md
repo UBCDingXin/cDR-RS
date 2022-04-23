@@ -1,4 +1,4 @@
-# Efficient Density Ratio-Guided Subsampling of Conditional GANs, With Conditioning on a Class or a Continuous Variable
+# Efficient Subsampling of Realistic Images From GANs Conditional on a Class or a Continuous Variable
 
 --------------------------------------------------------
 
