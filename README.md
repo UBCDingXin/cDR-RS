@@ -2,16 +2,17 @@
 
 --------------------------------------------------------
 
-This repository provides the source codes for the experiments in our paper at [https://arxiv.org/abs/2103.11166v5](https://arxiv.org/abs/2103.11166v5). <br />
+This repository provides the source codes for the experiments in our paper at [here](https://www.sciencedirect.com/science/article/abs/pii/S0925231222013509). <br />
 If you use this code, please cite
 ```text
-@misc{ding2021efficient,
-      title={Efficient Subsampling of Realistic Images From GANs Conditional on a Class or a Continuous Variable},
-      author={Xin Ding and Yongwei Wang and Z. Jane Wang and William J. Welch},
-      year={2022},
-      eprint={2103.11166v5},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{ding2023efficient,
+  title={Efficient subsampling of realistic images from GANs conditional on a class or a continuous variable},
+  author={Ding, Xin and Wang, Yongwei and Wang, Z Jane and Welch, William J},
+  journal={Neurocomputing},
+  volume={517},
+  pages={188--200},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
